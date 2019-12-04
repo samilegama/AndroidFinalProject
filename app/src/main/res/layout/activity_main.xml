@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".MainActivity">
+
+    <!-- Main Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/main_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- This is the beginning of the container LinearLayout-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/main_toolbar"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="@color/colorPrimary">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@color/colorPrimary"
+            android:paddingBottom="20dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="fill"
+                android:background="@color/colorPrimary"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp">
+                <ImageButton
+                    android:id="@+id/currencyButton"
+                    android:contentDescription="@string/currency"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/currency"
+                    android:minHeight="36dp"
+                    android:minWidth="36dp"
+                    android:background="#fff"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:focusable="true"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="fill"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp">
+                <ImageButton
+                    android:id="@+id/chargerButton"
+                    android:contentDescription="@string/car_charger"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/car_charger"
+                    android:minHeight="36dp"
+                    android:minWidth="36dp"
+                    android:background="#fff"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:focusable="true"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="fill"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp">
+                <ImageButton
+                    android:id="@+id/recipeButton"
+                    android:contentDescription="@string/recipe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/recipe_book"
+                    android:minHeight="36dp"
+                    android:minWidth="36dp"
+                    android:background="#fff"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:focusable="true"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="fill"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp">
+
+                <ImageButton
+                    android:id="@+id/newsButton"
+                    android:contentDescription="@string/news"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/news"
+                    android:minHeight="36dp"
+                    android:minWidth="36dp"
+                    android:background="#fff"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+    <!-- This is the end of the container LinearLayout-->
+
+</RelativeLayout>

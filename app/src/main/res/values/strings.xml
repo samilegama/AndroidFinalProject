@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">MultiApp</string>
+    <string name="news">News Button</string>
+    <string name="currency">Currency Conversion Button</string>
+    <string name="car_charger">Car Charger Button</string>
+    <string name="recipe">Recipe Search Button</string>
+
+    <string name="amount">Enter an amount to convert</string>
+    <string name="convert">Convert</string>
+    <string name="baseValue">Base Amount</string>
+    <string name="finalValue">Final Amount</string>
+    <string name="addToList">Add to List</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="overflow">Help</string>
+    <string name="authorName">Author: Samuel Ebba</string>
+    <string name="app_version">Version: 1</string>
+    <string name="equalSymbol">==></string>
+    <string name="howToUse">
+
+        In order to use this App:\n
+        1. Make sure your device is connected to the Internet\n
+        2. Enter a number to be converted\n
+        3. Specify the base currency and what it should be converted to\n
+        4. Click the convert button to perform the conversion
+    </string>
+
+    <string-array name="name">
+        <item>Canadian Dollar</item>
+        <item>Hong Kong Dollar</item>
+        <item>Icelandic Krona</item>
+        <item>Philippine peso</item>
+        <item>Danish Krone</item>
+        <item>Hungarian Forint</item>
+        <item>Czech Koruna</item>
+        <item>Australian Dollar</item>
+        <item>Romanian Leu</item>
+        <item>Swedish Krona</item>
+        <item>Indonesian Rupiah</item>
+        <item>Indian Rupee</item>
+        <item>Brazilian Real</item>
+        <item>Russian Ruble</item>
+        <item>Croatian Kuna</item>
+        <item>Japanese Yen</item>
+        <item>Thai Baht</item>
+        <item>Swiss Franc</item>
+        <item>Singapore Dollar</item>
+        <item>Poland złoty</item>
+        <item>Bulgarian Lev</item>
+        <item>Turkish lira</item>
+        <item>Chinese Yuan</item>
+        <item>Norwegian Krone</item>
+        <item>New Zealand Dollar</item>
+        <item>South African Rand</item>
+        <item>United States Dollar</item>
+        <item>Mexican Peso</item>
+        <item>Israeli New Shekel</item>
+        <item>Pound sterling</item>
+        <item>South Korean won</item>
+        <item>Malaysian Ringgit</item>
+    </string-array>
+
+    <string-array name="value">
+        <item>CAD</item>
+        <item>HKD</item>
+        <item>ISK</item>
+        <item>PHP</item>
+        <item>DKK</item>
+        <item>HUF</item>
+        <item>CZK</item>
+        <item>AUD</item>
+        <item>RON</item>
+        <item>SEK</item>
+        <item>IDR</item>
+        <item>INR</item>
+        <item>BRL</item>
+        <item>RUB</item>
+        <item>HRK</item>
+        <item>JPY</item>
+        <item>THB</item>
+        <item>CHF</item>
+        <item>SGD</item>
+        <item>PLN</item>
+        <item>BGN</item>
+        <item>TRY</item>
+        <item>CNY</item>
+        <item>NOK</item>
+        <item>NZD</item>
+        <item>ZAR</item>
+        <item>USD</item>
+        <item>MXN</item>
+        <item>ILS</item>
+        <item>GBP</item>
+        <item>KRW</item>
+        <item>MYR</item>
+    </string-array>
+</resources>

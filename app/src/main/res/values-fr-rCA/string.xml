@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">MultiApp</string>
+    <string name="news">Bouton Nouvelles</string>
+    <string name="currency">Bouton de conversion de devise</string>
+    <string name="car_charger">Bouton de chargeur de voiture</string>
+    <string name="recipe">Bouton de recherche de recette</string>
+
+    <string name="amount">Entrez un montant à convertir</string>
+    <string name="convert">Convertir</string>
+    <string name="baseValue">Montant de base</string>
+    <string name="finalValue">Le montant final</string>
+    <string name="addToList">Ajouter à la liste</string>
+    <string name="from">De</string>
+    <string name="to">À</string>
+    <string name="overflow">Aidez-moi</string>
+    <string name="authorName">Auteur: Samuel Ebba</string>
+    <string name="app_version">Version 1</string>
+    <string name="equalSymbol">==></string>
+    <string name="howToUse">
+
+    Pour utiliser cette application: \ n
+    1. Assurez-vous que votre appareil est connecté à Internet \ n
+    2. Entrez un nombre à convertir \ n
+    3. Spécifiez la devise de base et ce en quoi elle doit être convertie \ n
+    4. Cliquez sur le bouton de conversion pour effectuer la conversion.ersion
+
+    </string>
+
+    <string-array name="name">
+        <item>Dollar canadien</item>
+        <item>Dollar de Hong Kong</item>
+        <item>Couronne islandaise</item>
+        <item>Peso philippin</item>
+        <item>Couronne danoise</item>
+        <item>Forint Hongrois</item>
+        <item>Couronne tchèque</item>
+        <item>Dollar australien</item>
+        <item>Leu roumain</item>
+        <item>Couronne suédoise</item>
+        <item>Roupie indonésienne</item>
+        <item>Roupie indienne</item>
+        <item>Real brésilien</item>
+        <item>Rouble russe</item>
+        <item>Kuna Croate</item>
+        <item>Yen japonais</item>
+        <item>Baht thaïlandais</item>
+        <item>Franc suisse</item>
+        <item>Dollar de Singapour</item>
+        <item>Pologne złoty</item>
+        <item>Lev bulgare</item>
+        <item>Lire turque</item>
+        <item>Le yuan chinois</item>
+        <item>Couronne norvégienne</item>
+        <item>Dollar néo-zélandais</item>
+        <item>Rand sud-africain</item>
+        <item>Dollar américain</item>
+        <item>Peso Mexicain</item>
+        <item>Nouveau shekel israélien</item>
+        <item>Livre sterling</item>
+        <item>Won sud-coréen</item>
+        <item>cloche malaisienne</item>
+    </string-array>
+
+    <string-array name="value">
+        <item>CAD</item>
+        <item>HKD</item>
+        <item>ISK</item>
+        <item>PHP</item>
+        <item>DKK</item>
+        <item>HUF</item>
+        <item>CZK</item>
+        <item>AUD</item>
+        <item>RON</item>
+        <item>SEK</item>
+        <item>IDR</item>
+        <item>INR</item>
+        <item>BRL</item>
+        <item>RUB</item>
+        <item>HRK</item>
+        <item>JPY</item>
+        <item>THB</item>
+        <item>CHF</item>
+        <item>SGD</item>
+        <item>PLN</item>
+        <item>BGN</item>
+        <item>TRY</item>
+        <item>CNY</item>
+        <item>NOK</item>
+        <item>NZD</item>
+        <item>ZAR</item>
+        <item>USD</item>
+        <item>MXN</item>
+        <item>ILS</item>
+        <item>GBP</item>
+        <item>KRW</item>
+        <item>MYR</item>
+    </string-array>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/choice1"
+        android:title="@string/currency"
+        android:icon="@drawable/currency"
+        android:orderInCategory="100"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/choice2"
+        android:title="@string/car_charger"
+        android:icon="@drawable/car_charger"
+        android:orderInCategory="200"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/choice3"
+        android:title="@string/recipe"
+        android:icon="@drawable/recipe_book"
+        android:orderInCategory="300"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/choice4"
+        android:title="@string/news"
+        android:icon="@drawable/news"
+        android:orderInCategory="400"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/about"
+        android:title="@string/overflow"
+        android:icon="@drawable/ic_launcher_background"
+        app:showAsAction="never"/>
+
+</menu>
